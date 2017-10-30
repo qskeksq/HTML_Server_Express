@@ -187,14 +187,7 @@ app.post('/insert', (request, response)=>{
     var body = request.body;
 
     console.log(body.name+':'+body.modelnumber+':'+body.series);
-    console.log(typeof body.name +':'+typeof body.modelnumber+':'+typeof body.series)
-
-    // 이거 token 안 되는거임?
-    // client.query(
-    // 'INSERT INTO products (name, modelnumber, series) VALUES (?,?,?)'
-    // , [body.name, body.modelnumbers, body.series]
-    // , ()=>{response.redirect('/')}
-    // )
+    console.log(typeof body.name +':'+typeof body.modelnumber+':'+typeof body.series);
 
     client.query(
     'INSERT INTO products (name, modelnumber, series) VALUES ('+body.name+','+body.modelnumber+','+body.series+');'
