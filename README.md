@@ -1,9 +1,9 @@
 # HTML Server by Express
 - Nodejs Express 모듈을 사용한 HTML 서버
 
-## 클라이언트(HTML)
+## (1) 클라이언트(HTML)
 
-### 추가
+### - 추가
 
 ```HTML
 <head>
@@ -37,7 +37,7 @@
 </html>
 ```
 
-### 목록
+### - 목록
 
 ```HTML
 <head>
@@ -73,7 +73,7 @@
 </html>
 ```
 
-### 수정
+### - 수정
 
 ```HTML
 <head>
@@ -111,7 +111,7 @@
 </html>
 ```
 
-## 서버
+## (2) 서버
 
 1. 모듈 추출
 2. db 연결
